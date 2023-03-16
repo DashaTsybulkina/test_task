@@ -1,23 +1,44 @@
 [
     {
-        "name": "root"
+        "name": "root",
+        "id": 1,
+        "type": "folder",
+        "parent": null
     },
     {
-        "name": "folder 1"
+        "name": "folder 1",
+        "id": 2,
+        "type": "folder",
+        "parent": 1
     },
     {
-        "name": "file 1 in folder 1"
+        "name": "super file",
+        "id": 3,
+        "type": "file",
+        "parent": 1
     },
     {
-        "name": "folder 2"
+        "name": "ffff",
+        "id": 4,
+        "type": "folder",
+        "parent": 2
     },
     {
-        "name": "folder 1 in folder 2"
+        "name": "gggggg",
+        "id": 5,
+        "type": "folder",
+        "parent": 4
     },
     {
-        "name": "file 1 folder 1 in folder 2"
+        "name": "aaaaaa",
+        "id": 6,
+        "type": "file",
+        "parent": 1
     },
     {
-        "name": "file 2 folder 1 in folder 2"
+        "name": "bbbbbbbb",
+        "id": 7,
+        "type": "folder",
+        "parent": null
     }
 ]
